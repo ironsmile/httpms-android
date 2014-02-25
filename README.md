@@ -3,6 +3,7 @@ HTTPMS Android Client
 
 This is an android client for my [HTTP Media Server](https://github.com/ironsmile/httpms). It is built with phonegap/cordova.
 
+
 Development Status
 ============
 The app is still in development. With that said I feel it is now in the stage where it can be used without any major problems. It will have lots of missing features though!
@@ -28,4 +29,6 @@ $ phonegap plugin list
 com.ironsmile.cordova.mediaevents can be found [here](https://github.com/ironsmile/com.ironsmile.cordova.mediaevents).
 
 
-
+Known Issues
+============
+* This client will not work with HTTPMS which has HTTP Basic Authenticate on.
