@@ -1,0 +1,81 @@
+.playing {
+    font-weight: bold;
+}
+
+.media-controls .ui-block-a {
+    width: 80%;
+}
+
+.header-controls .ui-block-b {
+    width: 60%;
+}
+
+.media-controls .ui-block-b,
+.header-controls .ui-block-c,
+.header-controls .ui-block-a {
+    width: 20%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.now-playing {
+    padding-left: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.now-playing .track-by {
+    font-weight: normal;
+}
+
+.clicked {
+    background-color: #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+.track-album {
+    padding: 10px 0 10px 10px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.track-album .title, .track-album .artist {
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+.track-album .artist {
+    font-size: 85%;
+    color: #c6c6c6;
+}
+
+.search-title {
+    color: blue;
+}
+
+.search-title-padded {
+    padding-top: 16px;
+    display: block;
+}
+
+#search_output hr {
+    margin: 0;
+}
+
+.toast {
+    display: none;
+    padding: 3px;
+    border: 1px solid #c6c6c6;
+    background-color: #ccc;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+}
+
+.template-holder {
+    display: none;
+}

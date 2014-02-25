@@ -1,0 +1,29 @@
+# start emulator:
+emulator -avd nexus-442-x86 -qemu -m 256 -enable-kvm
+
+# get logcat logs:
+adb -s emulator-5554 logcat | grep -i cordova
+
+# uninstall my app:
+adb uninstall com.ironsmile.httpms
+
+# chrome device remote inspect:
+chrome://inspect/#devices
+
+# installing the plugin
+plugman install --platform android --plugin ~/workspace/com.ironsmile.cordova.mediaevents/ --project ~/workspace/httpms-android/platforms/android
+
+# removing plugin
+plugman uninstall --platform android --plugin com.ironsmile.cordova.media-events --project ~/workspace/httpms-android/platforms/android
+
+
+
+
+
+Credits
+========
+
+ * icons guy
+ * cordova
+ * all plugins
+ 

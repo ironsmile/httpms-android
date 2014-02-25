@@ -1,0 +1,8 @@
+*.sublime-project
+*.sublime-workspace
+
+/cordova/*
+/merges/*
+/platforms/*
+/plugins/*
+
